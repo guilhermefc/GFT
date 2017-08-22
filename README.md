@@ -12,7 +12,7 @@ Este repositório destina-se a compartilhar um app básico android para verifica
 
 <br>Etapa 3:
 <br>Integre essa lista customizada a uma api rest que disponibiliza o serviço get posts, conforme instruções neste site: https://jsonplaceholder.typicode.com/ a lista a ser consumida encontra-se em: https://jsonplaceholder.typicode.com/posts
-<br>PS: Adicionamos a biblioteca Retrofit ao Graddle: 'A type-safe HTTP client for Android and Java', você pode utilizar esta ou qualquer outra de sua escolha.
+<br>PS: Adicionamos a biblioteca Retrofit ao Gradle: 'A type-safe HTTP client for Android and Java', você pode utilizar esta ou qualquer outra de sua escolha.
 <br><img src='https://i.imgur.com/vA8AoVl.png' />
 
 <br><br>Caso não consiga concluir as três etapas, envie de onde você parou, buscamos por todos os tipos de profissionais ;)
