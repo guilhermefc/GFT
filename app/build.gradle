@@ -22,6 +22,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "environment"
+    productFlavors {
+        prod {
+            dimension "environment"
+
+            buildConfigField 'String', 'HOST', '"https://jsonplaceholder.typicode.com"'
+        }
+    }
 }
 
 dependencies {
