@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ListApp</string>
+    <string name="err_unknown">Unknown error!</string>
+    <string name="title_news">GFT News</string>
+    <string name="refresh">Refresh</string>
+
 </resources>
