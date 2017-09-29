@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ListApp</string>
+    <string name="titulo_principal">Notícias GFT</string>
+    <string name="button_atualizar">ATUALIZAR</string>
+    <string name="id">Id</string>
+    <string name="tvtitulo">titulo</string>
+    <string name="tvDesc">descricao</string>
 </resources>

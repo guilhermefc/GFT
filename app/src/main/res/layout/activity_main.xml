@@ -3,16 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gft.listapp.MainActivity">
+    tools:context="com.gft.listapp.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="Hello World"
+        android:layout_marginBottom="@dimen/padding_bottom"
+        android:layout_marginTop="@dimen/padding_top"
+        android:text="@string/titulo_principal"
         android:textAlignment="center"
-        />
+        android:textSize="@dimen/titulo" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvNoticias"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rvNoticias"
+        android:layout_weight="0.94" />
+
+    <Button
+        android:id="@+id/btAtualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_atualizar"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/button_atualizar" />
 
 </LinearLayout>
